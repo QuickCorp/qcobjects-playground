@@ -1,6 +1,6 @@
 {
   "name": "qcobjects-playground",
-  "version": "0.1.92",
+  "version": "0.1.93",
   "description": "QCObjects Playground",
   "main": "qcobjects-playground.js",
   "license": "LGPL-3.0",
@@ -68,7 +68,7 @@
   },
   "homepage": "https://qcobjects.com",
   "dependencies": {
-    "qcobjects": "^2.1.388",
+    "qcobjects": "latest",
     "qcobjects-cli": "latest"
   },
   "devDependencies": {
