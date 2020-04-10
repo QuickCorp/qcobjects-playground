@@ -1,2 +1,1 @@
-# lithiumorm
 # qcobjects-playground
