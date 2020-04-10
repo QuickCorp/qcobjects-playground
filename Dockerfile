@@ -40,9 +40,5 @@ RUN npm ci --save --only=production
 # Bundle app source
 COPY --chown=qcobjects:qcobjects . .
 
-# Default port is 10300
-ENV COLLAB_PORT 10300
-
-EXPOSE $COLLAB_PORT
 
 CMD [ "npm", "run", "start" ]
