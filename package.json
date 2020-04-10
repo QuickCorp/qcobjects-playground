@@ -1,0 +1,80 @@
+{
+  "name": "qcobjects-playground",
+  "version": "0.1.92",
+  "description": "QCObjects Playground",
+  "main": "qcobjects-playground.js",
+  "license": "LGPL-3.0",
+  "scripts": {
+    "start": "qcobjects-shell",
+    "test": "npx eslint qcobjects-playground.js && jasmine",
+    "preversion": "npm cache verify && npm test",
+    "sync": "git add . && git commit -am ",
+    "postversion": "git push && git push --tags "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuickCorp/qcobjects-playground.git"
+  },
+  "keywords": [
+    "ROUTING",
+    "TOOLBAR",
+    "MEDIA",
+    "IMAGE",
+    "LAYOUT",
+    "BUTTON",
+    "server",
+    "view",
+    "mvvm",
+    "node",
+    "quickcorp",
+    "javascript",
+    "pure",
+    "mvc",
+    "objects",
+    "microfrontend",
+    "micro-frontend",
+    "architecture",
+    "component",
+    "components",
+    "pure",
+    "framework",
+    "javascript-framework",
+    "mvc-pattern",
+    "demo",
+    "html",
+    "first-timers-only",
+    "microfrontends",
+    "microservices",
+    "microfrontend",
+    "component-architecture",
+    "cli",
+    "tool",
+    "nodejs",
+    "cloud",
+    "multicloud",
+    "multi-cloud",
+    "aws",
+    "server",
+    "digitalocean",
+    "hosting",
+    "architecture",
+    "n-tier",
+    "multitier",
+    "multi-tier"
+  ],
+  "author": "Jean Machuca <correojean@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/QuickGroup/QCObjects/issues"
+  },
+  "homepage": "https://qcobjects.com",
+  "dependencies": {
+    "qcobjects-cli": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jasmine": "^3.4.0"
+  },
+  "bin": {
+    "qcobjects-shell": "./qcobjects-playground.js"
+  }
+}
