@@ -25,6 +25,7 @@ FROM quickcorp/qcobjects:latest
 ###
 
 #Configure the internal user permissions
+USER root
 RUN mkdir -p /home/qcobjects/app && chown -R qcobjects:qcobjects /home/qcobjects
 
 #Setting the work directory
